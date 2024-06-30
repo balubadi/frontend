@@ -24,11 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
           
-          #     - name: Install NodeJS Dependencies
-          #       run: npm install
-          
-          
-          
-          - name: sample is command
+
+      - name: sample is command
         run: ls -l
 
